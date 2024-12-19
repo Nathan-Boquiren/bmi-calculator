@@ -1,0 +1,78 @@
+/* ===== Global, Body ===== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== Header ===== */
+
+header {
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+/* ===== Inputs ===== */
+
+#inputs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-input {
+    width: 80px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+}
+
+/* ===== Results ===== */
+
+#results-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result {
+    font-size: 1.3rem;
+}
+
+.result span {
+    font-weight: 600;
+}

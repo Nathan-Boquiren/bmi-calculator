@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>BMI Calculator</h1>
+    </header>
+
+    <main id="app">
+
+        <div id="inputs-container">
+
+            <div class="user-input-container" id="gender">
+                <h2>Gender:</h2>
+
+                <input type="radio" name="gender" value="male" id="gender-input-male">
+                <label for="gender-inpt-male">male</label>
+
+                <input type="radio" name="gender" value="female" id="gender-input-female">
+                <label for="gender-input-female">female</label>
+            </div>
+
+            <div class="user-input-container" id="age">
+                <h2>Age:</h2>
+                <input type="number" name="age" id="age-input" class="user-input" min="2">
+                <span>yrs</span>
+            </div>
+
+            <div class="user-input-container" id="height">
+                <h2>Height:</h2>
+                <input type="number" name="height" id="height-input-ft" class="user-input">
+                <span>ft</span>
+                <input type="number" name="height" id="height-input-in" class="user-input">
+                <span>in</span>
+            </div>
+
+            <div class="user-input-container" id="weight">
+                <h2>Weight:</h2>
+                <input type="number" name="weight" id="weight-input" class="user-input">
+                <span>lbs</span>
+            </div>
+
+        </div>
+
+        <div id="results-container">
+
+            <div class="result" id="bmi-results"><span>BMI: </span></div>
+
+            <div class="result" id="weight-category"><span>Category: </span></div>
+
+            <div class="result" id="feedback"><span>Feedback: </span></div>
+
+        </div>
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
